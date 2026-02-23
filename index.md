@@ -1,9 +1,20 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: default
+title: About Me
 ---
+
+## Profile
+
+I work on Motion Capture, Crowd, Animation, and VFX Pipeline workflows.
+This page keeps the existing theme design while using Markdown content.
+
+## Focus
+
+- Motion Capture Pipeline
+- Crowd Simulation Workflow
+- Animation TA / VFX Pipeline TA
+
+## Contact
+
+- Email: [raybtfyauroraflarego@naver.com](mailto:raybtfyauroraflarego@naver.com)
+- Website: [limhs1229.github.io](https://limhs1229.github.io/)
