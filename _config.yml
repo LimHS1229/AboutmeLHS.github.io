@@ -216,26 +216,26 @@ content:
       - layout: top-middle
         title: Motion Capture
         description: | # this will include new lines to allow paragraphs
-          <center>
+          <p align="center">
           ![USING TOOLS]
           (.\images\MocapTools.png "mocap")
-          </center>
+          </p>
           vicon SHOGUN / Unreal Engine5 / Xsens / METAHUMAN Animator / Dynamixyz
           
       - layout: top-middle
         title: Animation & Crowd Simulation
         description: | # this will include new lines to allow paragraphs
-          <center>
+          <p align="center">
           ![USING TOOLS](.\images\animation.png "AniCrowd")
-          </center>
+          </p>
           MAYA / Motion Builder / Houdini
 
       - layout: top-middle
         title: TA
         description: | # this will include new lines to allow paragraphs
-          <center>
+          <p align="center">
           ![USING TOOLS](.\images\TAroll.png "TA")
-          </center>
+          </p>
           VScode / Python / Qt / Git
 
   - title: Projects # Title for the section
