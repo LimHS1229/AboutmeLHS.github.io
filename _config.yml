@@ -58,7 +58,7 @@ about_content: | # this will include new lines to allow paragraphs
   
     
     
-  I am most skilled in: <mark>MAYA</mark> and <mark>Vicon Shogun</mark>
+  [USING TOOLS](.\images\usingTools.png "tools")
 
 content:
   - title: Experience # Title for the section
