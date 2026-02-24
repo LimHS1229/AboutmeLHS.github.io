@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<button
+  id="theme-toggle-button"
+  class="theme-toggle-button"
+  type="button"
+  aria-label="Toggle color theme"
+>
+  <span class="theme-toggle-icon" aria-hidden="true">D</span>
+  <span class="theme-toggle-text">Dark</span>
+</button>
+<script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>

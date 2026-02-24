@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: custom-theme-toggle
 title: About Me
 ---
 

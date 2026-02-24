@@ -3,3 +3,100 @@
 ---
 
 @import 'modern-resume-theme';
+
+.theme-toggle-button {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 9999;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(127, 127, 127, 0.4);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-toggle-icon {
+  font-size: 14px;
+}
+
+html.manual-dark .theme-toggle-button {
+  background: rgba(24, 28, 35, 0.9);
+  color: #f2f4f7;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+html.manual-light .theme-toggle-button {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1b1e23;
+  border-color: rgba(27, 30, 35, 0.2);
+}
+
+html.manual-light body {
+  background: #f7f8fa !important;
+  color: #1b1e23 !important;
+}
+
+html.manual-light .container,
+html.manual-light .wrapper,
+html.manual-light .top-header,
+html.manual-light .layout,
+html.manual-light .section-container {
+  background: #ffffff !important;
+  color: #1b1e23 !important;
+}
+
+html.manual-light h1,
+html.manual-light h2,
+html.manual-light h3,
+html.manual-light h4,
+html.manual-light p,
+html.manual-light li,
+html.manual-light span,
+html.manual-light .quote,
+html.manual-light .name,
+html.manual-light .title {
+  color: #1b1e23 !important;
+}
+
+html.manual-light a {
+  color: #0057c2 !important;
+}
+
+html.manual-dark body {
+  background: #0f1218 !important;
+  color: #e8ecf1 !important;
+}
+
+html.manual-dark .container,
+html.manual-dark .wrapper,
+html.manual-dark .top-header,
+html.manual-dark .layout,
+html.manual-dark .section-container {
+  background: #151922 !important;
+  color: #e8ecf1 !important;
+}
+
+html.manual-dark h1,
+html.manual-dark h2,
+html.manual-dark h3,
+html.manual-dark h4,
+html.manual-dark p,
+html.manual-dark li,
+html.manual-dark span,
+html.manual-dark .quote,
+html.manual-dark .name,
+html.manual-dark .title {
+  color: #e8ecf1 !important;
+}
+
+html.manual-dark a {
+  color: #7fb3ff !important;
+}
