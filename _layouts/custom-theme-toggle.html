@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<script>
+  (function () {
+    document.documentElement.classList.remove("manual-light");
+    document.documentElement.classList.add("manual-dark");
+  })();
+</script>
+
 {{ content }}
 
 <button
