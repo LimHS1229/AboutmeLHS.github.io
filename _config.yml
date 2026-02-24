@@ -58,7 +58,7 @@ about_content: | # this will include new lines to allow paragraphs
   
     
     
-  [USING TOOLS](.\images\usingTools.png "tools")
+  ![USING TOOLS](.\images\usingTools.png "tools")
 
 content:
   - title: Experience # Title for the section
@@ -94,6 +94,19 @@ content:
           <br/>
           <br/>
           <br/>
+          
+      - layout: right
+        title: Dexter Studios
+        link: https://dexterstudios.com/ko/
+        # link_text: dexterstudios.com
+        sub_title: MotionCapture & Crowd Artist, Technical Animator, Pipeline TA
+        caption: 2022. 12 - Present
+        quote: >
+          "애니메이션 작업을 위한 모든 과정을 하나의 파이프라인을 통해 깔끔하게, 유저가 사용하기 편하도록 관리."
+        description: | # this will include new lines to allow paragraphs
+          <br/>
+          <br/>
+          
           **[Crowd Artist]**  
           MAYA Golaem을 통한 군중작업에는 한계가 있어서, Houdini 기반의 군중작업으로 파이프라인을 변경해야한다는 소식을 듣고, Houdini Agent를 통한 군중시뮬레이션 작업을 배워서 시작했습니다.
           군중작업에 필요한 툴들을 제작하고, 새로운 파이프라인에 적응 할 수 있도록 가이드를 올려 작업자들이 쉽게 적응할 수 있도록 도왔습니다.  
