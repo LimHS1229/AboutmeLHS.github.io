@@ -6,8 +6,8 @@
 
 .theme-toggle-button {
   position: fixed;
-  top: 16px;
-  right: 16px;
+  top: calc(6px + env(safe-area-inset-top));
+  right: calc(6px + env(safe-area-inset-right));
   z-index: 9999;
   display: inline-flex;
   align-items: center;
@@ -99,4 +99,62 @@ html.manual-dark .title {
 
 html.manual-dark a {
   color: #7fb3ff !important;
+}
+
+/* Improve readability by subtly alternating Experience item backgrounds */
+#experience .layout,
+#experience .layout-left,
+#experience .layout-right,
+#experience .layout-top-middle,
+.section-container[id*="experience"] .layout,
+.section-container[id*="experience"] .layout-left,
+.section-container[id*="experience"] .layout-right,
+.section-container[id*="experience"] .layout-top-middle {
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+html.manual-light #experience .layout:nth-of-type(odd),
+html.manual-light #experience .layout-left:nth-of-type(odd),
+html.manual-light #experience .layout-right:nth-of-type(odd),
+html.manual-light #experience .layout-top-middle:nth-of-type(odd),
+html.manual-light .section-container[id*="experience"] .layout:nth-of-type(odd),
+html.manual-light .section-container[id*="experience"] .layout-left:nth-of-type(odd),
+html.manual-light .section-container[id*="experience"] .layout-right:nth-of-type(odd),
+html.manual-light .section-container[id*="experience"] .layout-top-middle:nth-of-type(odd) {
+  background: rgba(20, 28, 44, 0.03) !important;
+}
+
+html.manual-light #experience .layout:nth-of-type(even),
+html.manual-light #experience .layout-left:nth-of-type(even),
+html.manual-light #experience .layout-right:nth-of-type(even),
+html.manual-light #experience .layout-top-middle:nth-of-type(even),
+html.manual-light .section-container[id*="experience"] .layout:nth-of-type(even),
+html.manual-light .section-container[id*="experience"] .layout-left:nth-of-type(even),
+html.manual-light .section-container[id*="experience"] .layout-right:nth-of-type(even),
+html.manual-light .section-container[id*="experience"] .layout-top-middle:nth-of-type(even) {
+  background: rgba(20, 28, 44, 0.07) !important;
+}
+
+html.manual-dark #experience .layout:nth-of-type(odd),
+html.manual-dark #experience .layout-left:nth-of-type(odd),
+html.manual-dark #experience .layout-right:nth-of-type(odd),
+html.manual-dark #experience .layout-top-middle:nth-of-type(odd),
+html.manual-dark .section-container[id*="experience"] .layout:nth-of-type(odd),
+html.manual-dark .section-container[id*="experience"] .layout-left:nth-of-type(odd),
+html.manual-dark .section-container[id*="experience"] .layout-right:nth-of-type(odd),
+html.manual-dark .section-container[id*="experience"] .layout-top-middle:nth-of-type(odd) {
+  background: rgba(255, 255, 255, 0.03) !important;
+}
+
+html.manual-dark #experience .layout:nth-of-type(even),
+html.manual-dark #experience .layout-left:nth-of-type(even),
+html.manual-dark #experience .layout-right:nth-of-type(even),
+html.manual-dark #experience .layout-top-middle:nth-of-type(even),
+html.manual-dark .section-container[id*="experience"] .layout:nth-of-type(even),
+html.manual-dark .section-container[id*="experience"] .layout-left:nth-of-type(even),
+html.manual-dark .section-container[id*="experience"] .layout-right:nth-of-type(even),
+html.manual-dark .section-container[id*="experience"] .layout-top-middle:nth-of-type(even) {
+  background: rgba(255, 255, 255, 0.06) !important;
 }

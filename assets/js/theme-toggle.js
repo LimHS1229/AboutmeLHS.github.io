@@ -21,11 +21,7 @@
     if (saved === "light" || saved === "dark") {
       return saved;
     }
-
-    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
-      return "light";
-    }
-
+    // Default to dark mode unless user explicitly picked a mode.
     return "dark";
   }
 
