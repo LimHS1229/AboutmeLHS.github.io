@@ -53,15 +53,12 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/logo.jpg
 about_content: | # this will include new lines to allow paragraphs
+  <br/>
+  <br/>
   안녕하세요! 모션캡쳐 및 군중 시뮬레이션과, 3D 애니메이션 파트 전문 VFX 테크니컬 아티스트로 활동하고있습니다.  
   <br/>
   Hello! I am work in MoCap Artist, Crowd Simulation artist, VFX pipeline TA and 3D animation Technical Animator.
   
-  - quote: >
-   메인으로는 이런 툴을 다루고 있어요!  
-    
-  ![USING TOOLS](.\images\usingTools.png "tools")
-
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -228,18 +225,21 @@ content:
       - layout: top-middle
         title: Motion Capture
         description: | # this will include new lines to allow paragraphs
-          ![USING TOOLS](.\images\MocapTools.png "mocap")
+          <center>![USING TOOLS](.\images\MocapTools.png "mocap")</center>
+          vicon SHOGUN / Unreal Engine5 / Xsens / METAHUMAN Animator / Dynamixyz
           
       - layout: top-middle
         title: Animation & Crowd Simulation
         description: | # this will include new lines to allow paragraphs
-          ![USING TOOLS](.\images\animation.png "AniCrowd")
+          <center>![USING TOOLS](.\images\animation.png "AniCrowd")</center>
+          MAYA / Motion Builder / Houdini
 
       - layout: top-middle
         title: TA
         description: | # this will include new lines to allow paragraphs
-          ![USING TOOLS](.\images\TAroll.png "TA")
-
+          <center>![USING TOOLS](.\images\TAroll.png "TA")</center>
+          VScode / Python / Qt / Git
+          
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
