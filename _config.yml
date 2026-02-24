@@ -100,6 +100,8 @@ content:
           **[그 외]**
           소프트웨어 적인 부분 이외에도 직접 수트를 착용했을때의 불편한 점, 어떻게해야 마커가 간섭이 덜 되는지 등의 하드웨어 테스트 뿐만 아니라 실제로 액터 역할까지 수행해가며 작업했습니다.
           <br/>
+          <br/>
+          <br/>
 
       - layout: right
         title: Dexter Studios
@@ -121,6 +123,8 @@ content:
           애니메이션 작업과 모션캡쳐 작업이 서로 상호작용을 이루어 긍정적인 시너지를 이뤄나가는 것을 몸소 느끼는 작업이었습니다.
           <br/>
           <br/>
+          <br/>
+          
       - layout: left
         title: Dexter Studios
         link: https://dexterstudios.com/ko/
@@ -141,7 +145,7 @@ content:
           이 과정에 있어서 군중작업이 단순하게 레이아웃을 구성하는 작업 뿐만아니라, 환경이나 상황 등을 고려하여 시청자들에게 현재의 상황을 한눈에 확실하게 전달할 수 있는 분위기 메이커의 역할을 한다는 것을 알게되었습니다. 
           <br/>
           <br/>
-
+          <br/>
       - layout: right
         title: Dexter Studios
         link: https://dexterstudios.com/ko/
@@ -173,7 +177,8 @@ content:
           <br/>
           목표는 작업자들이 작업중 검색해야할 파일이 있거나, 에러코드를 보고 어떤 문제가 발생했는지 확인하거나, 미처 확인못한 업데이트가 있는 경우에 연락을 보내거나 하는 기능이 있는 사내 챗봇을 만드는것이 목표입니다.    
           <br/>
-          
+          <br/>
+          <br/>          
       - layout: left
         title: Digital Hearts (JAPAN)
         link: https://www.digitalhearts-hd.com/
@@ -223,7 +228,7 @@ content:
           MAYA / Motion Builder / Houdini
 
       - layout: left
-        title: TA
+        title: Pipeline TA & Technical Animatior
         description: | # this will include new lines to allow paragraphs
           ![USING TOOLS](.\images\TAroll.png "TA")
 
@@ -234,7 +239,6 @@ content:
     content:
       - layout: top-middle
         title: Super awesome project
-        link: github.com/sproogen
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -245,7 +249,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: > # this will include new lines to allow paragraphs
+        description: | # this will include new lines to allow paragraphs
           더 문 [2023] | (Animator)  
           좀비버스 [2023] | (Mocap Artist)  
           유유백서(Netflix) [2023] | (Animator)  
@@ -267,7 +271,7 @@ content:
           월간남친 [2026] | (TA, Animator)  
           원더풀스 [2026 예정] | (TA, Crowd Artist)
           군체 [2026 예정] | (TA, Animator, Mocap Artist)
-          
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
