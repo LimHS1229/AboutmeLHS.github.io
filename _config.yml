@@ -127,7 +127,7 @@ content:
           <br/>
           <br/>
           <br/>
-          
+          ---
       - layout: left
         title: Dexter Studios
         link: https://dexterstudios.com/ko/
@@ -230,7 +230,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           ![USING TOOLS](.\images\animation.png "AniCrowd")
 
-          MAYA / Motion Builder / Houdini
+          MAYA (+ PyMEL, mayaCmds, openMaya) / Motion Builder / Houdini (+ houdiniVEX)
 
       - layout: left
         title: Pipeline TA & Technical Animatior
@@ -238,6 +238,8 @@ content:
           ![USING TOOLS](.\images\TAroll.png "TA")
 
           VScode / Python / Qt / Git
+            <br/>
+            <br/>
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -245,15 +247,15 @@ content:
       - layout: top-middle
         title: Super awesome project
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          지금까지 작업한 프로젝트들 입니다.
         description: | # this will include new lines to allow paragraphs
           더 문 [2023]   |   (Animator)  
           좀비버스 [2023]   |   (Mocap Artist)  
@@ -274,8 +276,8 @@ content:
           견우와 선녀 [2025]   |   (TA)  
           경주 플래시백 : 계림 (미디어 아트) [2025]   |   (TA, Crowd Artist)  
           월간남친 [2026]   |   (TA, Animator)  
-          원더풀스 [2026 예정]   |   (TA, Crowd Artist)
-          군체 [2026 예정]   |   (TA, Animator, Mocap Artist)
+          원더풀스 [2026 예정]   |   (TA, Crowd Artist)  
+          군체 [2026 예정]   |   (TA, Animator, Mocap Artist)  
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -284,12 +286,12 @@ content:
         title: Chungkang collage
         caption: 2016 - 2022
         sub_title: Animation
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          "꼬끼오 유니버스" 라는 VR작품을 통해, 학생때부터 새로운 도전을 즐겨왔습니다.  
+          Maya 뿐만아니라 Blender, Unity 등 다른 툴들도 애니메이션에 사용될 수 있다는 걸 알게 되었습니다. 
+          해당 작품은 제게 모션캡쳐와 HumanIK를 만나게 해준 계기가 된 작품입니다. 
 
   - title: A Little More About Me
     layout: text
