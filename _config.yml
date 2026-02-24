@@ -208,21 +208,21 @@ content:
   - title: Main Stacks # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Motion Capture
         description: | # this will include new lines to allow paragraphs
           ![USING TOOLS](.\images\MocapTools.png "mocap")
 
           vicon SHOGUN / Unreal Engine5 / Xsens / METAHUMAN Animator / Dynamixyz
           
-      - layout: top-middle
+      - layout: left
         title: Animation & Crowd Simulation
         description: | # this will include new lines to allow paragraphs
           ![USING TOOLS](.\images\animation.png "AniCrowd")
 
           MAYA / Motion Builder / Houdini
 
-      - layout: top-middle
+      - layout: left
         title: TA
         description: | # this will include new lines to allow paragraphs
           ![USING TOOLS](.\images\TAroll.png "TA")
@@ -245,9 +245,29 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+        description: > # this will include new lines to allow paragraphs
+          더 문 [2023] | (Animator)  
+          좀비버스 [2023] | (Mocap Artist)  
+          유유백서(Netflix) [2023] | (Animator)  
+          7인의 탈출 [2023] | (Animator, Mocap & Facial Artist)  
+          경성크리처 S1 [2023] | (Animator, Mocap Artist)  
+          경성크리처 S2 [2024] | (Mocap Artist)  
+          기생수 : 더 그레이 [2024] (Animator)  
+          외계+인 2부 [2024] | (Mocap Artist)  
+          리니지W X 어쌔신크리드 시네마틱 [2024] | (Animator, Mocap & Facial Artist)  
+          지옥2 [2024] | (Mocap & Facial Artist)   
+          조명가게 [2024] | (TA, Mocap Artist)  
+          이재, 곧 죽습니다 [2024] | (TA, Mocap Artist)  
+          귀궁 [2025] | (TA)  
+          북극성 [2025] | (TA, Crowd Artist)  
+          뱀피르 시네마틱 티저 : 절망 [2025] | (TA, Mocap & Facial Artist)  
+          사조영웅전 : 협지대자 [2025] | (TA, Mocap & Facial Artist, Crowd Artist)  
+          견우와 선녀 [2025] | (TA)  
+          경주 플래시백 : 계림 (미디어 아트) [2025] | (TA, Crowd Artist)  
+          월간남친 [2026] | (TA, Animator)  
+          원더풀스 [2026 예정] | (TA, Crowd Artist)
+          군체 [2026 예정] | (TA, Animator, Mocap Artist)
+          
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
