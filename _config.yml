@@ -217,10 +217,10 @@ content:
         title: Motion Capture
         description: | # this will include new lines to allow paragraphs
           <center>
-          ![USING TOOLS](.\images\MocapTools.png "mocap")
-          vicon SHOGUN / Unreal Engine5 / Xsens / METAHUMAN Animator / Dynamixyz
+          ![USING TOOLS]
+          (.\images\MocapTools.png "mocap")
           </center>
-
+          vicon SHOGUN / Unreal Engine5 / Xsens / METAHUMAN Animator / Dynamixyz
           
       - layout: top-middle
         title: Animation & Crowd Simulation
@@ -275,8 +275,9 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       이런 기록과 취미도 있어요! :
-      - TEKKEN 8 evo japan 2024 in 49th out of 1247 
-      - TEKKEN 7 evo japan 2023 in 129th out of 1401
+      - TEKKEN 8 evo japan 2024 in 49th (out of 1247)
+      - TEKKEN 8 evo japan 2025 in 129th (out of 982)
+      - TEKKEN 7 evo japan 2023 in 129th (out of 1401)
       - Electric Guitar Player
 #      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
