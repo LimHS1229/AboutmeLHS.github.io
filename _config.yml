@@ -77,7 +77,6 @@ content:
           페이셜 캡쳐의 경우, Dynamixyz라는 페이셜 전용 카메라를 사용하여 얼굴에 직접 마커를 찍어가며 캡쳐하는 방식부터,  
           최근에는 아이폰을 이용하여 빠르게 데이터를 얻어낼 수 있는 메타휴먼 애니메이터 기능을 사용하여 페이셜 데이터를 얻어내는 작업을 합니다.  
           <br/>
-          <br/>
           
           **[오퍼레이팅]**  
           언리얼 엔진의 라이브링크 시스템과 카메라 시퀀서를 함께 결합하여, 애니메이션 작업자가 모션캡쳐 시스템을 몰라도 촬영 상황을 직관적으로 볼 수 있도록 오퍼레이팅 시스템을 구축했습니다.  
@@ -114,13 +113,15 @@ content:
         description: | # this will include new lines to allow paragraphs
           **[Animation]**  
           프랍과 같은 키 애니메이션부터, 모션캡쳐를 통한 클린업 뿐만 아니라 해당 데이터가 카메라에 어떻게 비춰지고, 어떻게 움직여야 내가 원하는 타이밍대로 움직이는지는 데이터 작업자가 가장 잘 알고있습니다.  
-          이에 모션캡쳐 기반 애니메이션 작업을 통해, 애니메이션 작업자로서의 역량도 키워왔습니다. 
+          이에 모션캡쳐 기반 애니메이션 작업을 통해, 애니메이션 작업자로서의 역량도 키워왔습니다.  
           <br/>
 
-          직접 애니메이션 샷 작업까지 완료하고 나서, 작업자의 입장에서 모션캡쳐 데이터를 어떻게 가공해나가는지 이해하고, 이후 전체적인 모션캡쳐부터 애니메이션까지 이어지는 파이프라인 구축에 큰 경험이 되었습니다.
+          직접 애니메이션 샷 작업까지 완료하고 나서, 작업자의 입장에서 모션캡쳐 데이터를 어떻게 가공해나가는지 이해하고, 이후 전체적인 모션캡쳐부터 애니메이션까지 이어지는 파이프라인 구축에 큰 경험이 되었습니다.  
           <br/>
 
-          역으로, 애니메이션 작업에 익숙해지고 난 뒤 모션캡쳐 데이터를 다시 클린업하기 시작하니, 전체 데이터에서 어느부분이 핵심부분이고, 어느 부분이 버려도 되는 데이터인지 판단하는 시각을 기르는데에 큰 도움이 되었습니다.
+          역으로, 애니메이션 작업에 익숙해지고 난 뒤 모션캡쳐 데이터를 다시 클린업하기 시작하니, 전체 데이터에서 어느부분이 핵심부분이고,  
+          어느 부분이 버려도 되는 데이터인지 판단하는 시각을 기르는데에 큰 도움이 되었습니다.  
+          <br/>
           또한, 내가 만들어야하는 애니메이션을 직접 액팅하는데에 있어서, 모션캡쳐 시간소요에 있어서도 크게 단축되는 부분이 있어,   
           애니메이션 작업과 모션캡쳐 작업이 서로 상호작용을 이루어 긍정적인 시너지를 이뤄나가는 것을 몸소 느끼는 작업이었습니다.
           <br/>
@@ -254,27 +255,27 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          더 문 [2023] | (Animator)  
-          좀비버스 [2023] | (Mocap Artist)  
-          유유백서(Netflix) [2023] | (Animator)  
-          7인의 탈출 [2023] | (Animator, Mocap & Facial Artist)  
-          경성크리처 S1 [2023] | (Animator, Mocap Artist)  
-          경성크리처 S2 [2024] | (Mocap Artist)  
-          기생수 : 더 그레이 [2024] (Animator)  
-          외계+인 2부 [2024] | (Mocap Artist)  
-          리니지W X 어쌔신크리드 시네마틱 [2024] | (Animator, Mocap & Facial Artist)  
-          지옥2 [2024] | (Mocap & Facial Artist)   
-          조명가게 [2024] | (TA, Mocap Artist)  
-          이재, 곧 죽습니다 [2024] | (TA, Mocap Artist)  
-          귀궁 [2025] | (TA)  
-          북극성 [2025] | (TA, Crowd Artist)  
-          뱀피르 시네마틱 티저 : 절망 [2025] | (TA, Mocap & Facial Artist)  
-          사조영웅전 : 협지대자 [2025] | (TA, Mocap & Facial Artist, Crowd Artist)  
-          견우와 선녀 [2025] | (TA)  
-          경주 플래시백 : 계림 (미디어 아트) [2025] | (TA, Crowd Artist)  
-          월간남친 [2026] | (TA, Animator)  
-          원더풀스 [2026 예정] | (TA, Crowd Artist)
-          군체 [2026 예정] | (TA, Animator, Mocap Artist)
+          더 문 [2023]   |   (Animator)  
+          좀비버스 [2023]   |   (Mocap Artist)  
+          유유백서(Netflix) [2023]   |   (Animator)  
+          7인의 탈출 [2023]   |   (Animator, Mocap & Facial Artist)  
+          경성크리처 S1 [2023]   |   (Animator, Mocap Artist)  
+          경성크리처 S2 [2024]   |   (Mocap Artist)  
+          기생수 : 더 그레이 [2024]   |   (Animator)  
+          외계+인 2부 [2024]   |   (Mocap Artist)  
+          리니지W X 어쌔신크리드 시네마틱 [2024]   |   (Animator, Mocap & Facial Artist)  
+          지옥2 [2024]   |   (Mocap & Facial Artist)   
+          조명가게 [2024]   |   (TA, Mocap Artist)  
+          이재, 곧 죽습니다 [2024]   |   (TA, Mocap Artist)  
+          귀궁 [2025]   |   (TA)  
+          북극성 [2025]   |   (TA, Crowd Artist)  
+          뱀피르 시네마틱 티저 : 절망 [2025]   |   (TA, Mocap & Facial Artist)  
+          사조영웅전 : 협지대자 [2025]   |   (TA, Mocap & Facial Artist, Crowd Artist)  
+          견우와 선녀 [2025]   |   (TA)  
+          경주 플래시백 : 계림 (미디어 아트) [2025]   |   (TA, Crowd Artist)  
+          월간남친 [2026]   |   (TA, Animator)  
+          원더풀스 [2026 예정]   |   (TA, Crowd Artist)
+          군체 [2026 예정]   |   (TA, Animator, Mocap Artist)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
