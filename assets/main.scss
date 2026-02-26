@@ -125,10 +125,10 @@ html.manual-dark .list-container h3#experience ~ .layout:nth-of-type(even) {
 }
 
 /* Experience 첫 번째 항목 강조: sky blue */
-html.manual-light .list-container h3#experience ~ .layout:nth-of-type(1) {
+html.manual-light .experience-first-highlight {
   background: rgba(135, 206, 235, 0.34) !important;
 }
 
-html.manual-dark .list-container h3#experience ~ .layout:nth-of-type(1) {
+html.manual-dark .experience-first-highlight {
   background: rgba(135, 206, 235, 0.2) !important;
 }

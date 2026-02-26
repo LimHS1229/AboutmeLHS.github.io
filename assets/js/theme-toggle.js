@@ -14,8 +14,25 @@
     button.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
   }
 
+  function highlightFirstExperienceItem() {
+    var heading = document.getElementById("experience");
+    if (!heading) {
+      return;
+    }
+
+    var node = heading.nextElementSibling;
+    while (node && !node.classList.contains("layout")) {
+      node = node.nextElementSibling;
+    }
+
+    if (node) {
+      node.classList.add("experience-first-highlight");
+    }
+  }
+
   var currentTheme = "dark";
   applyTheme(currentTheme);
+  highlightFirstExperienceItem();
 
   button.addEventListener("click", function () {
     currentTheme = currentTheme === "light" ? "dark" : "light";
