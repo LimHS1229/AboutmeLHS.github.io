@@ -15,21 +15,28 @@
   }
 
   function highlightFirstExperienceItem() {
-    var experienceHeading = document.getElementById("experience");
-    var experienceContainer = null;
+    var headings = document.querySelectorAll("h3, h2");
+    var experienceHeading = null;
 
-    if (experienceHeading) {
-      experienceContainer = experienceHeading.closest(".list-container");
+    for (var i = 0; i < headings.length; i++) {
+      var text = (headings[i].textContent || "").trim().toLowerCase();
+      if (text === "experience") {
+        experienceHeading = headings[i];
+        break;
+      }
     }
 
-    if (!experienceContainer) {
-      var headings = document.querySelectorAll(".list-container h3");
-      for (var i = 0; i < headings.length; i++) {
-        if ((headings[i].textContent || "").trim().toLowerCase() === "experience") {
-          experienceContainer = headings[i].closest(".list-container");
-          break;
-        }
-      }
+    if (!experienceHeading) {
+      return;
+    }
+
+    var experienceContainer =
+      experienceHeading.closest(".section-container") ||
+      experienceHeading.closest(".list-container") ||
+      experienceHeading.parentElement;
+
+    while (experienceContainer && !experienceContainer.querySelector(".layout")) {
+      experienceContainer = experienceContainer.parentElement;
     }
 
     if (!experienceContainer) {
