@@ -15,15 +15,12 @@
   }
 
   function highlightFirstExperienceItem() {
-    var heading = document.getElementById("experience");
-    if (!heading) {
+    var experienceContainer = document.querySelector(".list-container");
+    if (!experienceContainer) {
       return;
     }
 
-    var node = heading.nextElementSibling;
-    while (node && !node.classList.contains("layout")) {
-      node = node.nextElementSibling;
-    }
+    var node = experienceContainer.querySelector(".layout");
 
     if (node) {
       node.classList.add("experience-first-highlight");

@@ -102,25 +102,25 @@ html.manual-dark a {
 }
 
 /* Improve readability by subtly alternating Experience item backgrounds */
-.list-container h3#experience ~ .layout {
+.list-container:first-of-type .layout {
   border-radius: 10px;
   padding: 12px;
   margin-bottom: 10px;
 }
 
-html.manual-light .list-container h3#experience ~ .layout:nth-of-type(odd) {
+html.manual-light .list-container:first-of-type .layout:nth-of-type(odd) {
   background: rgba(20, 28, 44, 0.06) !important;
 }
 
-html.manual-light .list-container h3#experience ~ .layout:nth-of-type(even) {
+html.manual-light .list-container:first-of-type .layout:nth-of-type(even) {
   background: rgba(20, 28, 44, 0.12) !important;
 }
 
-html.manual-dark .list-container h3#experience ~ .layout:nth-of-type(odd) {
+html.manual-dark .list-container:first-of-type .layout:nth-of-type(odd) {
   background: rgba(255, 255, 255, 0.05) !important;
 }
 
-html.manual-dark .list-container h3#experience ~ .layout:nth-of-type(even) {
+html.manual-dark .list-container:first-of-type .layout:nth-of-type(even) {
   background: rgba(255, 255, 255, 0.1) !important;
 }
 
