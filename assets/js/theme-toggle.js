@@ -15,10 +15,28 @@
   }
 
   function highlightFirstExperienceItem() {
-    var experienceContainer = document.querySelector(".list-container");
+    var experienceHeading = document.getElementById("experience");
+    var experienceContainer = null;
+
+    if (experienceHeading) {
+      experienceContainer = experienceHeading.closest(".list-container");
+    }
+
+    if (!experienceContainer) {
+      var headings = document.querySelectorAll(".list-container h3");
+      for (var i = 0; i < headings.length; i++) {
+        if ((headings[i].textContent || "").trim().toLowerCase() === "experience") {
+          experienceContainer = headings[i].closest(".list-container");
+          break;
+        }
+      }
+    }
+
     if (!experienceContainer) {
       return;
     }
+
+    experienceContainer.classList.add("experience-section");
 
     var node = experienceContainer.querySelector(".layout");
 

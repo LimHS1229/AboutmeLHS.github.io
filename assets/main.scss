@@ -101,26 +101,39 @@ html.manual-dark a {
   color: #7fb3ff !important;
 }
 
+/* Experience section background */
+html.manual-light .list-container.experience-section {
+  background: rgba(120, 170, 220, 0.08) !important;
+  border-radius: 12px;
+  padding: 8px 10px;
+}
+
+html.manual-dark .list-container.experience-section {
+  background: rgba(120, 170, 220, 0.12) !important;
+  border-radius: 12px;
+  padding: 8px 10px;
+}
+
 /* Improve readability by subtly alternating Experience item backgrounds */
-.list-container:first-of-type .layout {
+.list-container.experience-section .layout {
   border-radius: 10px;
   padding: 12px;
   margin-bottom: 10px;
 }
 
-html.manual-light .list-container:first-of-type .layout:nth-of-type(odd) {
+html.manual-light .list-container.experience-section .layout:nth-of-type(odd) {
   background: rgba(20, 28, 44, 0.06) !important;
 }
 
-html.manual-light .list-container:first-of-type .layout:nth-of-type(even) {
+html.manual-light .list-container.experience-section .layout:nth-of-type(even) {
   background: rgba(20, 28, 44, 0.12) !important;
 }
 
-html.manual-dark .list-container:first-of-type .layout:nth-of-type(odd) {
+html.manual-dark .list-container.experience-section .layout:nth-of-type(odd) {
   background: rgba(255, 255, 255, 0.05) !important;
 }
 
-html.manual-dark .list-container:first-of-type .layout:nth-of-type(even) {
+html.manual-dark .list-container.experience-section .layout:nth-of-type(even) {
   background: rgba(255, 255, 255, 0.1) !important;
 }
 
