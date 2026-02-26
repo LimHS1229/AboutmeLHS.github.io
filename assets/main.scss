@@ -124,11 +124,11 @@ html.manual-dark .list-container h3#experience ~ .layout:nth-of-type(even) {
   background: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Experience 첫 번째 항목 강조: sky blue */
-html.manual-light .experience-first-highlight {
+/* Experience 첫 번째 항목 강조: sky blue (override odd/even rules) */
+html.manual-light .list-container .layout.experience-first-highlight {
   background: rgba(135, 206, 235, 0.34) !important;
 }
 
-html.manual-dark .experience-first-highlight {
+html.manual-dark .list-container .layout.experience-first-highlight {
   background: rgba(135, 206, 235, 0.2) !important;
 }
