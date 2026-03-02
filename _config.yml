@@ -12,7 +12,7 @@ email: raybtfyauroraflarego@naver.com
 website: https://limhs1229.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 #twitter_username: jekyll
@@ -70,7 +70,7 @@ content:
         sub_title: MotionCapture Artist
         caption: 2022. 12 - Present
         quote: >
-          <span style='background-color: #747474'> "자이로부터 광학식 모션캡쳐에, 메타휴먼을 이용한 페이셜 캡쳐까지! 애니메이터를 위한 다재다능한 오퍼레이터." </span>
+          <span style='background-color: #CCEBEB'> "자이로부터 광학식 모션캡쳐에, 메타휴먼을 이용한 페이셜 캡쳐까지! 애니메이터를 위한 다재다능한 오퍼레이터." </span>
         description: | # this will include new lines to allow paragraphs
           <br/>
           Xsens를 이용한 모션캡쳐로 시작하여, 현재는 광학식 모션캡쳐 Vicon Shogun 시스템을 주류로 사용합니다.  
@@ -109,7 +109,7 @@ content:
         sub_title: 3D Animator
         caption: 2022. 12 - Present
         quote: >
-          <span style='background-color: #747474'> "모션캡쳐 촬영부터 애니메이션의 완성까지, 복잡하게 여러사람 거치지 않고 한 번에." </span>
+          <span style='background-color: #CCEBEB'> "모션캡쳐 촬영부터 애니메이션의 완성까지, 복잡하게 여러사람 거치지 않고 한 번에." </span>
         description: | # this will include new lines to allow paragraphs
           **[Animation]**  
           프랍과 같은 키 애니메이션부터, 모션캡쳐를 통한 클린업 뿐만 아니라 해당 데이터가 카메라에 어떻게 비춰지고, 어떻게 움직여야 내가 원하는 타이밍대로 움직이는지는 데이터 작업자가 가장 잘 알고있습니다.  
@@ -135,7 +135,7 @@ content:
         sub_title: Crowd Artist
         caption: 2023. 12 - Present
         quote: >
-          <span style='background-color: #747474'> "군중 상황에 따른 모션을 적절히 블렌딩해 배경과 자연스럽게 동화되도록." </span>
+          <span style='background-color: #CCEBEB'> "군중 상황에 따른 모션을 적절히 블렌딩해 배경과 자연스럽게 동화되도록." </span>
         description: | # this will include new lines to allow paragraphs
           **[Crowd Artist]**  
           MAYA Golaem을 통한 군중작업에는 한계가 있어서, Houdini 기반의 군중작업으로 파이프라인을 변경해야한다는 소식을 듣고, Houdini Agent를 통한 군중시뮬레이션 작업을 배워서 시작했습니다.  
@@ -158,7 +158,7 @@ content:
         sub_title: Technical 3D Animatior & VFX Pipeline TA
         caption: 2023. 12 - Present
         quote: >
-          <span style='background-color: #747474'> "애니메이션 작업을 위한 모든 과정을 하나의 파이프라인을 통해 깔끔하게, 유저가 사용하기 편하도록 관리" </span>
+          <span style='background-color: #CCEBEB'> "애니메이션 작업을 위한 모든 과정을 하나의 파이프라인을 통해 깔끔하게, 유저가 사용하기 편하도록 관리" </span>
         description: | # this will include new lines to allow paragraphs
           <br/>
           **[Animation pipeline TA]**  
@@ -191,7 +191,7 @@ content:
         sub_title: Korean translate LQA & Gameplay FQA
         caption: 2019. 08 - 2020. 06
         quote: >
-          <span style='background-color: #747474'> "플레이어가 원하는 방향의 번역을, 개발자가 원하는 방향의 버그 피드백을" </span>
+          <span style='background-color: #CCEBEB'> "플레이어가 원하는 방향의 번역을, 개발자가 원하는 방향의 버그 피드백을" </span>
         description: | # this will include new lines to allow paragraphs
             **[LQA]**  
             게임 "그랑블루 판타지 버서스", "이스 9", "파이널 판타지 7 리메이크", "페르소나 5" 등의 콘솔게임들의 LQA 작업을 맡았습니다.  
