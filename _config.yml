@@ -13,6 +13,7 @@ website: https://limhs1229.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
+background_color: "#f2f2f2"
 
 # Social links
 #twitter_username: jekyll

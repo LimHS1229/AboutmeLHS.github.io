@@ -52,7 +52,7 @@
     }
   }
 
-  var currentTheme = "dark";
+  var currentTheme = "light";
   applyTheme(currentTheme);
   highlightFirstExperienceItem();
 
